@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Midnight Launch Pack</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0d0d0d;
+      color: white;
+    }
+    header {
+      background-image: url('assets/banner.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #fff;
+      text-shadow: 0 0 10px #ff004c;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-top: 1rem;
+    }
+    .cta-button {
+      background: #ff004c;
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 2rem;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .games {
+      display: flex;
+      justify-content: space-around;
+      padding: 2rem;
+      background-color: #111;
+    }
+    .game-card {
+      background-color: #1a1a1a;
+      padding: 1rem;
+      border-radius: 10px;
+      width: 30%;
+      text-align: center;
+    }
+    .game-card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .payment {
+      text-align: center;
+      padding: 2rem;
+    }
+    .trust {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #666;
+      padding-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Midnight Launch Pack</h1>
+    <p>3 Ready-to-Deploy Games. $349. Yours Tonight.</p>
+    <a class="cta-button" href="#payment">Get Your Pack</a>
+  </header>
+
+  <section class="games">
+    <div class="game-card">
+      <img src="assets/game1.jpg" alt="Game 1" />
+      <p>PvP Arena | Unity</p>
+    </div>
+    <div class="game-card">
+      <img src="assets/game2.jpg" alt="Game 2" />
+      <p>2-Player Split Screen</p>
+    </div>
+    <div class="game-card">
+      <img src="assets/game3.jpg" alt="Game 3" />
+      <p>Stylized Platformer</p>
+    </div>
+  </section>
+
+  <section class="payment" id="payment">
+    <h2>Pay $349 USDT (ERC20)</h2>
+    <p>Wallet: <strong>0xYourWalletAddressHere</strong></p>
+    <a class="cta-button" href="https://t.me/yourtelegramlink" target="_blank">Confirm & DM Us</a>
+  </section>
+
+  <footer class="trust">
+    <p>This pack is delivered privately. No credits, no noise.</p>
+  </footer>
+</body>
+</html>
